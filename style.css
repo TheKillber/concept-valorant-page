@@ -220,6 +220,10 @@ p {
 }
 
 @media (max-width: 1200px) {
+  .limits,
+  #members .limits {
+    padding: 1% 5% 7%;
+  }
   .jett-img {
     display: none;
   }
@@ -256,5 +260,8 @@ p {
   }
   .img-footer-logo {
     object-fit: scale-down;
+  }
+  .btn-sm {
+    font-size: 1rem;
   }
 }
