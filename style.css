@@ -220,9 +220,11 @@ p {
 }
 
 @media (max-width: 1200px) {
-  .limits,
-  #members .limits {
+  .limits {
     padding: 1% 5% 7%;
+  }
+  #members {
+    padding: 2% 5%;
   }
   .jett-img {
     display: none;
