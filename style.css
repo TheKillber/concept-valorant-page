@@ -1,0 +1,260 @@
+body {
+  letter-spacing: 3px;
+}
+h1 {
+  color: #3747a6;
+}
+a,
+.nav-link {
+  color: #3748a660;
+}
+a:hover,
+.nav-link:hover {
+  color: #3747a6;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.limits {
+  padding: 1% 15% 7%;
+}
+.titulos {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+/* SECTION HEADER PA */
+#header {
+  background: #f2f2f2;
+}
+.fa-bars {
+  color: #3747a6;
+}
+.jett {
+  font-size: 30px;
+  font-weight: 500;
+  color: #3747a6;
+}
+.container-img {
+  background: #4e5ba6;
+  border-radius: 25px 0 0 25px;
+  position: relative;
+}
+.jett-img {
+  top: -65px;
+  left: -12px;
+  width: 115%;
+  transform: scaleX(-1);
+  position: absolute;
+}
+
+.jett-img-hidden {
+  width: 90%;
+  transform: scaleX(-1);
+  visibility: hidden;
+}
+.main-form {
+  margin-top: 7%;
+  filter: drop-shadow(0px 14px 25px rgba(0, 0, 0, 0.13));
+}
+
+.container-form {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  border-radius: 0 25px 25px 0;
+  color: #4e5ba6;
+}
+label {
+  font-size: 0.8rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.jett-col-container {
+  padding-right: 0;
+}
+.form-col-container {
+  padding-left: 0;
+}
+
+.input-items {
+  padding: 10px 9px;
+  background: #f2f2f2;
+  border-radius: 25px;
+  border: none;
+}
+
+.btn {
+  background: #f25050;
+  border: none;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 25px;
+  transition: border 0.4s;
+}
+.btn:hover {
+  color: #fff;
+  background: #da4848;
+}
+h2 {
+  font-family: "Montserrat";
+}
+/* MEMBES */
+
+#members {
+  background: #4e5ba6;
+  color: #fff;
+  padding: 3% 15%;
+}
+#members p {
+  margin: 3% 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* about us */
+#about-us {
+  padding-top: 3%;
+  background: #f2f2f2;
+}
+#about-us h2 {
+  color: #3747a6;
+}
+.bg-col {
+  background-color: #fff;
+  border-radius: 25px;
+}
+.bg-col img {
+  width: 17rem;
+  height: 17rem;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 5%;
+  margin: 7% 0;
+}
+.limits-card {
+  padding: 0 5% 3%;
+}
+.text-cards {
+  font-family: "Open-sans", sans-serif;
+  color: #3748a671;
+  width: 100%;
+}
+p {
+  letter-spacing: normal;
+}
+.text-cards span,
+.text-cards h4 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: #3747a6;
+  margin-bottom: 7%;
+}
+.text-cards span {
+  font-weight: 700;
+}
+.text-cards h4 {
+  font-weight: 500;
+}
+#about-us .main-form {
+  margin-top: 0;
+  padding-top: 0;
+}
+#about-us .container-fluid {
+  margin-top: 3%;
+}
+
+.social-icons a {
+  margin: 0 2%;
+  color: #f25050d7;
+  font-size: 1.2rem;
+}
+.social-icons a:hover {
+  color: #f74141;
+}
+.img-valorant {
+  width: 119px;
+}
+
+/* footer */
+#footer {
+  background-color: #f25050;
+  font-family: "Open Sans";
+  letter-spacing: 2px;
+}
+#footer a {
+  text-decoration: none;
+}
+.img-footer-logo {
+  text-align: center;
+}
+.footer-list .jett {
+  font-family: "Montserrat";
+  margin: 0 0 2%;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.footer-socials a {
+  width: 100%;
+  font-size: 1rem;
+  margin-top: 2%;
+  color: #fff;
+}
+
+.sublist:hover {
+  color: #fff;
+}
+.sublist {
+  color: rgba(255, 255, 255, 0.678);
+}
+#footer img {
+  vertical-align: bottom;
+}
+
+@media (max-width: 1200px) {
+  .jett-img {
+    display: none;
+  }
+  .jett-img-hidden {
+    visibility: visible;
+    width: 40%;
+    padding: 3% 0;
+  }
+  .container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    margin-bottom: 3%;
+  }
+  .container-form {
+    padding: 3% 0;
+    border-radius: 25px;
+  }
+
+  .jett-col-container,
+  .form-col-container {
+    padding: inherit;
+  }
+  #about-us .col-lg-5 {
+    margin-bottom: 3%;
+  }
+  #footer .container-fluid {
+    text-align: center;
+  }
+  .img-footer-logo img {
+    margin-top: 3%;
+    width: 80px;
+  }
+  .img-footer-logo {
+    object-fit: scale-down;
+  }
+}
